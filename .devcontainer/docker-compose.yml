@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  quarto:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/home/vscode/workspace
+    environment:
+      - NB_UID=1000
+      - RESTARTABLE=yes
+    restart: always
