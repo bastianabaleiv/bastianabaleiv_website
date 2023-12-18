@@ -6,4 +6,3 @@ plotly
 ipykernel
 jupyter
 jupyterlab
-mypy
