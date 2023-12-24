@@ -26,13 +26,13 @@ RUN groupadd --gid $USER_GID $USERNAME && \
         nano && \
     rm -rf /var/lib/apt/lists/*
 
-ENV QUARTO_VERSION="1.3.433"
+ENV QUARTO_VERSION="1.3.450"
     
 RUN curl -o quarto-linux-amd64.deb -L https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb && \
     gdebi --non-interactive quarto-linux-amd64.deb && \
     rm quarto-linux-amd64.deb
 
-#RUN quarto check
+RUN quarto check
 
 ENV PATH="/home/${USERNAME}/.local/bin:${PATH}"
 
