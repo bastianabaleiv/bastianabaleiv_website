@@ -1,13 +1,10 @@
-version: "3"
-
 services:
   quarto:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
+    ports:
+      - "8888:8888"
     volumes:
-      - ..:/home/vscode/workspace
-    environment:
-      - NB_UID=1000
-      - RESTARTABLE=yes
+      - ..:/usr/workspace
     restart: always
