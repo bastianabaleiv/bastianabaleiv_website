@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "abaleiv"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: docs/blog/index.qmd
+        text: Blog
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute: 
+  freeze: auto
+
+
