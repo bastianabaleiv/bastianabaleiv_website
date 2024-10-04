@@ -1,0 +1,10 @@
+---
+title: Blog Title
+subtitle: Blog Subtitle
+listing:
+  sort: "date desc"
+  contents: "posts/*/index.qmd"
+  sort-ui: false
+  filter-ui: false
+  categories: true
+---
