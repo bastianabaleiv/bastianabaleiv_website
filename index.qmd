@@ -1,0 +1,8 @@
+---
+title: "Main"
+---
+
+This is a Quarto website.
+
+![![flickr](https://combo.staticflickr.com/pw/images/favicons/favicon-32.png){height=20} @[ajerezcl](https://www.flickr.com/photos/ajerezcl/)](https://live.staticflickr.com/65535/53509727303_34c9822648_b.jpg)
+
