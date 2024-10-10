@@ -1,15 +1,14 @@
 ---
-title: "About"
+title: "Bastián Aballay Leiva"
 image: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi2.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F000%2F875%2F794%2F927.png&f=1&nofb=1&ipt=d36d437141e167d0f0e58e0a82b4f391e1e7e1da6c37e7368435b84fd24c8e90&ipo=images
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: github
       text: GitHub
       href: https://github.com/bastianabaleiv
     # (additional links excluded for brevity)
+comments: false
 ---
 
-## About this blog
-
-This is the contents of the about page for my blog.
+Project Leader y Data Scientist. 
