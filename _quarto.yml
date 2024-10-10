@@ -7,15 +7,20 @@ website:
   navbar:
     search: true
     left:
-      - href: index.qmd
-        text: Home
+      - href: about.qmd
+        text: About
       - href: docs/blog/index.qmd
         text: Blog
-      - about.qmd
+
+comments:
+  giscus:
+    repo: bastianabaleiv/bastianabaleiv_website
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, styles.scss, light.scss]
+      dark: [cosmo, styles.scss, dark.scss]
     css: styles.css
     toc: true
 
