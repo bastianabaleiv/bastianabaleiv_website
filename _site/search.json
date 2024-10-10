@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Main",
+    "objectID": "todo.html",
+    "href": "todo.html",
+    "title": "abaleiv",
     "section": "",
-    "text": "This is a Quarto website.\n\n\n\n @ajerezcl"
+    "text": "Add Giscus\nUpdate site logo"
+  },
+  {
+    "objectID": "todo.html#backlog",
+    "href": "todo.html#backlog",
+    "title": "abaleiv",
+    "section": "",
+    "text": "Add Giscus\nUpdate site logo"
   },
   {
     "objectID": "docs/blog/index.html",
@@ -16,16 +23,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Bastián Aballay Leiva",
     "section": "",
-    "text": "This is the contents of the about page for my blog."
-  },
-  {
-    "objectID": "about.html#about-this-blog",
-    "href": "about.html#about-this-blog",
-    "title": "About",
-    "section": "",
-    "text": "This is the contents of the about page for my blog."
+    "text": "Project Leader y Data Scientist."
   },
   {
     "objectID": "blog.html",
